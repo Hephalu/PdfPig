@@ -52,6 +52,11 @@
   <ItemGroup>
     <None Remove="Fonts\CompactFontFormat\MinionPro.bin" />
     <None Remove="Fonts\TrueType\Roboto-Regular.GlyphData.txt" />
+    <None Remove="Hephalu\Documents\tamatave.pdf" />
+    <None Remove="Hephalu\Documents\Tana.pdf" />
+    <None Remove="Hephalu\Documents\TanaChq.pdf" />
+    <None Remove="Hephalu\Documents\TanaNormal.pdf" />
+    <None Remove="Hephalu\Documents\tulear.pdf" />
     <None Remove="Parser\SimpleGoogleDocPageContent.txt" />
   </ItemGroup>
 
@@ -82,6 +87,15 @@
     <Content Include="Fonts\Type1\CMBX12.pfa" />
     <Content Include="Fonts\Type1\CMCSC10.pfa" />
     <Content Include="Fonts\Type1\Raleway-Black.pfb" />
+    <Content Include="Hephalu\Documents\tamatave.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Hephalu\Documents\Tana.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Hephalu\Documents\TanaChq.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Parser\SimpleGoogleDocPageContent.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -137,5 +151,10 @@
   <ItemGroup>
     <Folder Include="Images\" />
     <Folder Include="Images\Files\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Hephalu\Documents\TanaNormal.pdf" />
+    <Resource Include="Hephalu\Documents\tulear.pdf" />
   </ItemGroup>
 </Project>
